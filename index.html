@@ -2,7 +2,7 @@
 <html lang="en" class="h-100">
 
 <head>
-    <title>JavaScript Base Template</title>
+    <title>TacoCat</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -23,11 +23,11 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body class="d-flex flex-column h-100">
+<body class="d-flex flex-column h-100 mb-color">
 
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top b-color">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">JS Template</a>
+            <a class="navbar-brand" href="index.html">TacoCat</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
                 aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -35,7 +35,7 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav me-auto mb-2 mb-md-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                        <a class="nav-link active text dark" aria-current="page" href="/index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/app.html">The App</a>
@@ -53,54 +53,59 @@
 
     <main class="flex-shrink-0">
         <div class="container">
-            <h1 class="mt-5">This page describes the application</h1>
-            <p class="lead">I need a graphic and some text on this page</p>
-            <div class="col-lg-6">
-                <h1 class="display-5 fw-bold lh-1 mb-3">Hundo: A Coding Challenge</h1>
-                <h4 class="lead">Live life one loop at a time. A javascript coding exercise using loops. Write a
-                    program the
-                    displays the numbers from 0 to 100. Display the even numbers in <strong>BOLD.</strong></h4>
+            <div class="row">
+            <h1 class="mt-5"></h1>
+            <p class="lead"></p>
+            <div class="col-6">
+                <h1 class="display-6 fw-bold lh-1 mb-3">Taco Cat: A Coding Challenge</h1>
+                <h4 class="lead border-top border-2 pt-3">You can order Cat tacos here. Just kidding! The goal of this
+                    algorithm is to input a string and use a function to check if it is a palindrome. A palindrome is a
+                    word or phrase that reads the same backward and forward.</h4>
                 <ul class="fa-ul pt-2 checklist">
-                    <li><span class="fa-li"><i class="fas fa-check-square"></i></span>CSS and Bootstrap Layout</li>
-                    <li><span class="fa-li"><i class="fas fa-check-square"></i></span>Javascript Fundamentals</li>
-                    <li><span class="fa-li"><i class="fas fa-check-square"></i></span>Javascript Loops</li>
-                    <li><span class="fa-li"><i class="fas fa-check-square"></i></span>Javascript Functions</li>
-                    <li><span class="fa-li"><i class="fas fa-check-square"></i></span>Javascript Dom Manipulation
+                    <li><span class="fa-li"><i class="fas fa-check-square t-color"></i></span>CSS and Bootstrap Layout</li>
+                    <li><span class="fa-li"><i class="fas fa-check-square t-color"></i></span>Javascript Fundamentals</li>
+                    <li><span class="fa-li"><i class="fas fa-check-square t-color"></i></span>Javascript Loops</li>
+                    <li><span class="fa-li"><i class="fas fa-check-square t-color"></i></span>Javascript Functions</li>
+                    <li><span class="fa-li"><i class="fas fa-check-square t-color"></i></span>Javascript Dom Manipulation
                     </li>
-                    <li><span class="fa-li"><i class="fas fa-check-square"></i></span>Javascript if/then/else</li>
-                    <li><span class="fa-li"><i class="fas fa-check-square"></i></span>Javascript boolean logic</li>
+                    <li><span class="fa-li"><i class="fas fa-check-square t-color"></i></span>Javascript if/then/else</li>
+                    <li><span class="fa-li"><i class="fas fa-check-square t-color"></i></span>Javascript boolean logic</li>
                 </ul>
                 <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                    <a type="button" class="btn btn-outline-dark btn-lg px-4 me-md-2" href="app.html">Try It Out</a>
+                    <a type="button" class="btn btn-outline-warning btn-lg px-4 me-md-2 t-color" href="app.html">Try It Out</a>
                 </div>
                 <h5 class="fw-bold mt-5">Technolgies Used </h5>
                 <div class="d-flex">
                     <div class="row row-cols-4">
-                        <div class="col"><i class="fab fa-js-square fa-5x jsicon"></i></div>
-                        <div class="col"><i class="fab fa-bootstrap fa-5x bsicon"></i></div>
-                        <div class="col"><i class="fab fa-html5 fa-5x html5icon"></i></div>
-                        <div class="col"><i class="fab fa-css3-alt fa-5x css3icon"></i></div>
+                        <div class="col"><i class="fab fa-js-square fa-5x jsicon t-color"></i></div>
+                        <div class="col"><i class="fab fa-bootstrap fa-5x bsicon t-color"></i></div>
+                        <div class="col"><i class="fab fa-html5 fa-5x html5icon t-color"></i></div>
+                        <div class="col"><i class="fab fa-css3-alt fa-5x css3icon t-color"></i></div>
                     </div>
                 </div>
             </div>
-
-
+                <div class="col"></div>
+                <div class="col-4">
+                    <img src="/img/tacocat.png" class="img-fluid" height="400px" width="400px">
+                </div>
+           
+            </div>
         </div>
     </main>
 
 
-    <footer class="footer mt-auto py-3 bg-dark">
+    <footer class="footer mt-auto py-3 b-color">
         <div class="container-fluid text-center text-danger">
             <div class="row">
-                <div class="col">
-                    &copy2021 <span class="text-primary">A. Russell | Demo Code</span>
+                <div class="col text-dark">
+                    &copy2021 <span class="text-dark">A. Morales | TacoCat</span>
                 </div>
                 <div class="col">
-                    <span class="text-light text-uppercase"> andrew russell</span>
+                    <span class="text-light text-uppercase text-dark"> alberto morales</span>
                 </div>
                 <div class="col">
-                    <a href="#" target="_blank"><i class="fab fa-linkedin fa-2x text-danger"></i></a>
-                    <a href="#" class="text-danger" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-github fa-2x"></i></a>
                     <a href="#" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
                     <a href="#" target="_blank"><i class="fab fa-youtube fa-2x"></i></a>
                 </div>
