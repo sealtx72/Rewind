@@ -1,20 +1,11 @@
-//Step 1 - Get the word
-//Step 2 - Reverse the word
-//Strings are arrays of characters
-//We can use the same code to access the letters in a string
-//array[index] - give me the value of array at position index
-//string[index] - give me the letter in the string at position index
-
-//Frank
-//["F", "r", "a", "n", "k"]
-
-
 //wrapper function to control the app
 function getWord() {
+
     //get the user's word
     let chara = /[\W_]/g;
     let word = document.getElementById("word").value;
 
+    //validating min number of strings
     if (word.length <= 1) {
         Swal.fire(
             'Something went wrong',
@@ -23,6 +14,8 @@ function getWord() {
         )
         return;
     }
+
+    //cleaning string of spaces and charaters
     let cword = word.replace(chara, '');
     cword = cword.toLowerCase();
 
@@ -31,7 +24,7 @@ function getWord() {
 
     //pass the original and reversed words to the display function
     displayResults(cword, revWord);
-};
+}
 
 //this function does the "work" of the app, reversing a string
 function flipWord(cword) {
@@ -51,8 +44,6 @@ function flipWord(cword) {
     //after the loop send back the reversed word
     return revWord;
 }
-
-
 
 //this function takes in information and prints it to the screen
 function displayResults(cword, revWord) {
@@ -77,10 +68,4 @@ function displayResults(cword, revWord) {
         })
 
     }
-};
-
-//Notes for TacoCat/Palindrome
-//Basic completion is reversing the word and comparing it to the original - print if word equals reverse word yes or no
-//Better completion is handling capital vs lower case letters T != t
-//Extra credit is handling spaces and special characters
-//You can include the array function version of this exercise only if you have completed the for loop version
+}
