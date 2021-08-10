@@ -19,3 +19,6 @@ a {
 a:hover {
     color: rgb(102, 102, 102);
 }
+.bgmain {
+    background: linear-gradient(90deg, rgba(157, 157, 157, 1) 0%, rgba(244, 244, 244, 1) 100%);
+}
